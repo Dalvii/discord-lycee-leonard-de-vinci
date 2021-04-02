@@ -51,6 +51,9 @@ Pour que ce procédé fonctionne, il faut que le channel servant à récupérer 
 ![channels devoirs](https://raw.githubusercontent.com/Dalvii/discord-lycee-leonard-de-vinci/main/img/4.PNG)
 ![channels settings](https://raw.githubusercontent.com/Dalvii/discord-lycee-leonard-de-vinci/main/img/5.PNG)
 
+## Infos
+- Auteur: Theo Vidal
+- Discord: Dalvi#3682 (lien du discord se servant du projet: [Discord](https://discord.gg/WeqJtQcADk))
 
 ## Images
 ![Atrium Setup](https://raw.githubusercontent.com/Dalvii/discord-lycee-leonard-de-vinci/main/img/3.PNG)
