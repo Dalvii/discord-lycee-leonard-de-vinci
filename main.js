@@ -47,11 +47,10 @@ client.on('message', async message => {
         message.author.send('Ton compte `'+command[0] + '` a bien été pris en compte')
 
         let result = await atrium_get(command[0], command[1])
-        console.log(message.content)
         if (result.error === false) {
             message.channel.send('Bienvenue '+result.name)
             account_set(result, message)
-            console.log('[Lycee] added account: ' + command[0])
+            console.log('[Lycee] added account: ' + command[0]+ ' '+message.author.username)
         } else message.reply(' Il y eu un problème, vos identifiants sont surement erronés (identifiants Atrium, pas ceux des ordinateurs du lycée)').then(message => {
             message.delete({ timeout: 30000 })
             })
